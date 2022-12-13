@@ -14,6 +14,7 @@ function App() {
     return (
         <CheckBox 
             value={null}
+            enableThreeStateBehavior={true}
             text="Approve"
             hint="Approve"
             iconSize="25"

@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "devextreme": "^21.2.4",
-    "devextreme-vue": "^21.2.4",
-    "vue": "^3.2.13",
+    "devextreme": "^22.2.3",
+    "devextreme-vue": "^22.2.3",
+    "vue": "^3.2.45",
     "vue-router": "^4.0.16"
   },
   "devDependencies": {

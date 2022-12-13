@@ -1,6 +1,7 @@
 <template>
     <DxCheckBox
         :value="null"
+        :enable-three-state-behavior="true"
         text="Approve"
         hint="Approve"
         icon-size="25"
