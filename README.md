@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # DevExtreme CheckBox - Getting Started 
 
-This repository stores the code examples of the CheckBox component for the [Getting Started with CheckBox](https://js.devexpress.com/Documentation/Guide/UI_Components/CheckBox/Getting_Started_with_CheckBox/) tutorial. This tutorial explains how to create a CheckBox, configure its core features, and handle the value change.
+This repository stores the code examples of the CheckBox component for the [Getting Started with CheckBox](https://js.devexpress.com/Documentation/Guide/UI_Components/CheckBox/Getting_Started_with_CheckBox/) tutorial. This tutorial explains how to create a CheckBox, configure its core features, and handle value changes.
 
 <div align="center"><img src="./checkbox.gif" /></div>
 
