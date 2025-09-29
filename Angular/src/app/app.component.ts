@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import { DxCheckBoxTypes } from 'devextreme-angular/ui/check-box';
+import notify from 'devextreme/ui/notify';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +8,9 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
-
-  counter = 0;
-
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  onValueChanged(e: DxCheckBoxTypes.ValueChangedEvent): void {
+    if (e.value) {
+      notify('The CheckBox is checked', 'success', 500);
+    }
   }
 }

@@ -1,3 +1,9 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
-</div>
+<dx-check-box
+  [value]="null"
+  [enableThreeStateBehavior]="true"
+  text="Approve"
+  hint="Approve"
+  iconSize="25"
+  (onValueChanged)="onValueChanged($event)"
+>
+</dx-check-box>

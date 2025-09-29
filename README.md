@@ -18,9 +18,10 @@ This repository stores the code examples of the CheckBox component for the [Gett
 - **jQuery**
     - [index.js](jQuery/src/index.js)
 - **React**
-    - [App.js](React/src/App.js)
+    - [App.tsx](React/src/App.tsx)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
+    - [CheckBoxContent.vue](Vue/src/components/CheckBoxContent.vue)
 
 ## Documentation
 

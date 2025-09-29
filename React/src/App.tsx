@@ -1,17 +1,26 @@
-import { useCallback, useState } from 'react';
+import { useCallback } from 'react';
 import './App.css';
 import 'devextreme/dist/css/dx.material.blue.light.compact.css';
-import Button from 'devextreme-react/button';
+import { CheckBox } from 'devextreme-react/check-box';
+import type { CheckBoxTypes } from 'devextreme-react/check-box';
+import notify from 'devextreme/ui/notify';
 
 function App(): JSX.Element {
-  var [count, setCount] = useState<number>(0);
-  const clickHandler = useCallback(() => {
-    setCount((prev) => prev + 1);
-  }, [setCount]);
+  const onValueChanged = useCallback((e: CheckBoxTypes.ValueChangedEvent) => {
+    if (e.value) {
+      notify('The CheckBox is checked', 'success', 500);
+    }
+  }, []);
+
   return (
-    <div className="main">
-      <Button text={`Click count: ${count}`} onClick={clickHandler} />
-    </div>
+    <CheckBox
+      value={null}
+      enableThreeStateBehavior={true}
+      text="Approve"
+      hint="Approve"
+      iconSize="25"
+      onValueChanged={onValueChanged}
+    />
   );
 }
 

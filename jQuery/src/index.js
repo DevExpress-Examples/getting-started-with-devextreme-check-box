@@ -1,10 +1,14 @@
 $(() => {
-  let count = 0;
-  $('#btn').dxButton({
-    text: `Click count: ${count}`,
-    onClick(e) {
-      count += 1;
-      e.component.option('text', `Click count: ${count}`);
+  $('#check-box').dxCheckBox({
+    value: null,
+    enableThreeStateBehavior: true,
+    text: 'Approve',
+    hint: 'Approve',
+    iconSize: 25,
+    onValueChanged(e) {
+      if (e.value) {
+        DevExpress.ui.notify('The CheckBox is checked', 'success', 500);
+      }
     },
   });
 });
