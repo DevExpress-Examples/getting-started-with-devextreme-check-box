@@ -8,7 +8,7 @@
 
 This repository stores the source code for the following tutorial: [Getting Started with CheckBox](https://js.devexpress.com/Documentation/Guide/UI_Components/CheckBox/Getting_Started_with_CheckBox/).
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=getting-started-with-devextreme-check-box&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=getting-started-with-devextreme-check-box&~~~was_helpful=no)
 
