@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { DxCheckBoxTypes } from 'devextreme-angular/ui/check-box';
 import notify from 'devextreme/ui/notify';
 
@@ -8,6 +8,7 @@ import { DxCheckBoxModule } from 'devextreme-angular/ui/check-box';
     selector: 'app-root',
     imports: [DxCheckBoxModule],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
